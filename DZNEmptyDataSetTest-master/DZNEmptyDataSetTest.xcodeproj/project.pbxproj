@@ -19,10 +19,12 @@
 		26F3788D1FC3FD4C00D65069 /* change-tx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26F3788C1FC3FD4B00D65069 /* change-tx@2x.png */; };
 		26F378941FC40B4600D65069 /* XLBaseTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F378931FC40B4600D65069 /* XLBaseTableController.m */; };
 		26F378971FC4108E00D65069 /* XLBaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F378961FC4108E00D65069 /* XLBaseCollectionViewController.m */; };
+		7187CE5A1A38BE314814ACDF /* libPods-DZNEmptyDataSetTestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E794EF0EEA32800E1604923 /* libPods-DZNEmptyDataSetTestUITests.a */; };
 		856DDD5422D5DCA000647DC6 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DDD5322D5DCA000647DC6 /* TestViewController.m */; };
 		856DDD5722D5DD3500647DC6 /* TestTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DDD5622D5DD3500647DC6 /* TestTableView.m */; };
 		856DDD5F22D5EAD700647DC6 /* DZNEmptyDataSetTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DDD5E22D5EAD700647DC6 /* DZNEmptyDataSetTestUITests.m */; };
 		856DDD6822D5EBD900647DC6 /* ResponsePersonalInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DDD6722D5EBD900647DC6 /* ResponsePersonalInformation.m */; };
+		866CBD4F38D84EEA0858AA1F /* libPods-DZNEmptyDataSetTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8396FF7EA910D644C2AA61DC /* libPods-DZNEmptyDataSetTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,11 @@
 		26F378931FC40B4600D65069 /* XLBaseTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBaseTableController.m; sourceTree = "<group>"; };
 		26F378951FC4108E00D65069 /* XLBaseCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLBaseCollectionViewController.h; sourceTree = "<group>"; };
 		26F378961FC4108E00D65069 /* XLBaseCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLBaseCollectionViewController.m; sourceTree = "<group>"; };
+		276A3A8B8682960272978353 /* Pods-DZNEmptyDataSetTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZNEmptyDataSetTest.debug.xcconfig"; path = "Target Support Files/Pods-DZNEmptyDataSetTest/Pods-DZNEmptyDataSetTest.debug.xcconfig"; sourceTree = "<group>"; };
+		2E794EF0EEA32800E1604923 /* libPods-DZNEmptyDataSetTestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DZNEmptyDataSetTestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E55590D1A6A59DD116D66E9 /* Pods-DZNEmptyDataSetTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZNEmptyDataSetTestUITests.release.xcconfig"; path = "Target Support Files/Pods-DZNEmptyDataSetTestUITests/Pods-DZNEmptyDataSetTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		60D2FA139916E33D858C3AA3 /* Pods-DZNEmptyDataSetTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZNEmptyDataSetTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-DZNEmptyDataSetTestUITests/Pods-DZNEmptyDataSetTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8396FF7EA910D644C2AA61DC /* libPods-DZNEmptyDataSetTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DZNEmptyDataSetTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		856DDD5222D5DCA000647DC6 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		856DDD5322D5DCA000647DC6 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		856DDD5522D5DD3500647DC6 /* TestTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableView.h; sourceTree = "<group>"; };
@@ -66,6 +73,7 @@
 		856DDD6022D5EAD700647DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		856DDD6622D5EBD900647DC6 /* ResponsePersonalInformation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponsePersonalInformation.h; sourceTree = "<group>"; };
 		856DDD6722D5EBD900647DC6 /* ResponsePersonalInformation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponsePersonalInformation.m; sourceTree = "<group>"; };
+		ACCA9624BB9052325E2710D1 /* Pods-DZNEmptyDataSetTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZNEmptyDataSetTest.release.xcconfig"; path = "Target Support Files/Pods-DZNEmptyDataSetTest/Pods-DZNEmptyDataSetTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				866CBD4F38D84EEA0858AA1F /* libPods-DZNEmptyDataSetTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,18 +89,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7187CE5A1A38BE314814ACDF /* libPods-DZNEmptyDataSetTestUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C12A8FDECC5DADBBF92B800 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				276A3A8B8682960272978353 /* Pods-DZNEmptyDataSetTest.debug.xcconfig */,
+				ACCA9624BB9052325E2710D1 /* Pods-DZNEmptyDataSetTest.release.xcconfig */,
+				60D2FA139916E33D858C3AA3 /* Pods-DZNEmptyDataSetTestUITests.debug.xcconfig */,
+				5E55590D1A6A59DD116D66E9 /* Pods-DZNEmptyDataSetTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		26F378581FC3D72D00D65069 = {
 			isa = PBXGroup;
 			children = (
 				26F378631FC3D72D00D65069 /* DZNEmptyDataSetTest */,
 				856DDD5D22D5EAD700647DC6 /* DZNEmptyDataSetTestUITests */,
 				26F378621FC3D72D00D65069 /* Products */,
+				0C12A8FDECC5DADBBF92B800 /* Pods */,
+				832F16B8565783EC21BB98EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +169,15 @@
 			path = EmptyDataSet;
 			sourceTree = "<group>";
 		};
+		832F16B8565783EC21BB98EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8396FF7EA910D644C2AA61DC /* libPods-DZNEmptyDataSetTest.a */,
+				2E794EF0EEA32800E1604923 /* libPods-DZNEmptyDataSetTestUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		856DDD5D22D5EAD700647DC6 /* DZNEmptyDataSetTestUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26F378771FC3D72D00D65069 /* Build configuration list for PBXNativeTarget "DZNEmptyDataSetTest" */;
 			buildPhases = (
+				6F666962BF69BD5ABCB2E32C /* [CP] Check Pods Manifest.lock */,
 				26F3785D1FC3D72D00D65069 /* Sources */,
 				26F3785E1FC3D72D00D65069 /* Frameworks */,
 				26F3785F1FC3D72D00D65069 /* Resources */,
+				C37854E380CA528DDAAF0C2F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 856DDD6522D5EAD700647DC6 /* Build configuration list for PBXNativeTarget "DZNEmptyDataSetTestUITests" */;
 			buildPhases = (
+				C293AB873AC14D81DFC4664B /* [CP] Check Pods Manifest.lock */,
 				856DDD5822D5EAD700647DC6 /* Sources */,
 				856DDD5922D5EAD700647DC6 /* Frameworks */,
 				856DDD5A22D5EAD700647DC6 /* Resources */,
@@ -251,6 +287,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F666962BF69BD5ABCB2E32C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DZNEmptyDataSetTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C293AB873AC14D81DFC4664B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DZNEmptyDataSetTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C37854E380CA528DDAAF0C2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DZNEmptyDataSetTest/Pods-DZNEmptyDataSetTest-resources.sh",
+				"${PODS_ROOT}/EasyNavigation/EasyNavigation/EasyNavButton.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EasyNavButton.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DZNEmptyDataSetTest/Pods-DZNEmptyDataSetTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		26F3785D1FC3D72D00D65069 /* Sources */ = {
@@ -415,6 +520,7 @@
 		};
 		26F378781FC3D72D00D65069 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 276A3A8B8682960272978353 /* Pods-DZNEmptyDataSetTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -430,6 +536,7 @@
 		};
 		26F378791FC3D72D00D65069 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACCA9624BB9052325E2710D1 /* Pods-DZNEmptyDataSetTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +552,7 @@
 		};
 		856DDD6322D5EAD700647DC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D2FA139916E33D858C3AA3 /* Pods-DZNEmptyDataSetTestUITests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
@@ -465,6 +573,7 @@
 		};
 		856DDD6422D5EAD700647DC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E55590D1A6A59DD116D66E9 /* Pods-DZNEmptyDataSetTestUITests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
