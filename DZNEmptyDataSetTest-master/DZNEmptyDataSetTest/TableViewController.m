@@ -31,9 +31,8 @@
 
 - (void)setUI{
     
-    self.tableView.frame =CGRectMake(0, 100, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height-64);
+    self.tableView.frame =CGRectMake(0, 64, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height-64);
     [self setNoDataView];
-    
 
 }
 
@@ -81,6 +80,7 @@
     [_dataArray addObject:@"haha"];
 
     [self.tableView reloadData];
+    [self endRefreshing];
 
 }
 

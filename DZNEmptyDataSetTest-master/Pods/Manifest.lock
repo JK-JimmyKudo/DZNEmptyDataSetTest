@@ -15,6 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - EasyNavigation (1.0.5)
+  - MJRefresh (3.2.2)
   - PPNetworkHelper (0.8.1):
     - AFNetworking (~> 3.2.0)
     - YYCache (~> 1.0.4)
@@ -23,21 +24,24 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - EasyNavigation (~> 1.0)
+  - MJRefresh
   - PPNetworkHelper
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - AFNetworking
     - EasyNavigation
+    - MJRefresh
     - PPNetworkHelper
     - YYCache
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   EasyNavigation: 3414769a995d032e5dd9441f2bdd4eda7dd10089
+  MJRefresh: 72a46ecaa2a0feaf48fc5198dff95f25f8bb27c6
   PPNetworkHelper: e893191a73665e9c496c2887fd5ceece9e930bb8
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: b0a3d9fbd681cdd7415b4cf63e5e1aa22eb87178
+PODFILE CHECKSUM: f5d5c63572bd85003f62d7ac9efb5c46aca9f16b
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.8.4

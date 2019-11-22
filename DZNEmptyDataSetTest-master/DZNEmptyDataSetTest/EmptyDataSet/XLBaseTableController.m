@@ -8,6 +8,7 @@
 
 #import "XLBaseTableController.h"
 #import "UIScrollView+EmptyDataSet.h"
+#import <MJRefresh.h>
 
 @interface XLBaseTableController () <DZNEmptyDataSetSource, DZNEmptyDataSetDelegate,UITableViewDataSource,UITableViewDelegate>
 
@@ -33,6 +34,9 @@
     self.tableView.emptyDataSetSource = self;
     self.tableView.emptyDataSetDelegate = self;
     
+    self.tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(headerRefreshing)];
+    self.tableView.mj_footer = [MJRefreshAutoNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(footerRefreshing)];
+        
 }
 
 -(UIImage *)imageForEmptyDataSet:(UIScrollView *)scrollView
@@ -127,16 +131,36 @@
     
 }
 
+
+-(void)headerRefreshing{
+    
+    [self.tableView.mj_footer resetNoMoreData];
+    
+    [self TapLoadButtonEvent];
+}
+
+-(void)footerRefreshing{
+    [self TapLoadButtonEvent];
+}
+
 -(void)setNoDataView{
     self.noDataTitle = @"暂无数据";
     self.noDataImgName = @"pic_zwsj";
+    
 }
+
+
+-(void)endRefreshing{
+    [self.tableView.mj_header endRefreshing];
+    [self.tableView.mj_footer endRefreshing];
+}
+
 
 -(UITableView *)tableView
 {
     if(_tableView == nil)
     {
-        _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 64, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height-64) style:UITableViewStylePlain];
+        _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height) style:UITableViewStylePlain];
         _tableView.dataSource = self;
         _tableView.delegate = self;
         _tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, [[UIScreen mainScreen] bounds].size.width, 1)];
@@ -144,7 +168,9 @@
         _tableView.showsVerticalScrollIndicator = NO;
         _tableView.showsHorizontalScrollIndicator = NO;
         if (@available(iOS 11.0, *)) {
-            self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+            _tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+            _tableView.contentInset = UIEdgeInsetsMake(0, 0, 0, 0);//导航栏如果使用系统原生半透明的，top设置为64
+            _tableView.scrollIndicatorInsets = _tableView.contentInset;
         }else {
             self.automaticallyAdjustsScrollViewInsets = NO;
         }

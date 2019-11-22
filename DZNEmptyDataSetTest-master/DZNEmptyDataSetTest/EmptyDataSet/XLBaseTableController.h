@@ -31,4 +31,6 @@
 
 -(void)TapLoadButtonEvent;
 
+-(void)endRefreshing;
+
 @end

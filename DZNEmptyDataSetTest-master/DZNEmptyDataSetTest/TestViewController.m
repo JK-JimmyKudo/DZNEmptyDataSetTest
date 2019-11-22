@@ -7,13 +7,12 @@
 //
 
 #import "TestViewController.h"
-#import "TestTableView.h"
+
 @interface TestViewController ()<UITableViewDataSource,UITableViewDelegate>{
     
     NSMutableArray * _dataArray;
 }
 
-@property (nonatomic,strong)  TestTableView *TtableView;
 
 @end
 
@@ -28,15 +27,8 @@
     
     _dataArray = [[NSMutableArray alloc]init];
     
-    TestTableView *TtableView = [[TestTableView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
-    [self.view addSubview:TtableView];
     
-    self.TtableView = TtableView;
-    
-    self.TtableView.hidden = YES;
-    
-    
-    self.tableView.frame =CGRectMake(0, 64, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height-64);
+    self.tableView.frame =CGRectMake(0, 0, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height);
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     
@@ -48,8 +40,7 @@
 
 -(void)TapLoadButtonEvent{
     
-    self.TtableView.hidden = NO;
-    self.tableView.hidden = YES;
+ 
     
     
     

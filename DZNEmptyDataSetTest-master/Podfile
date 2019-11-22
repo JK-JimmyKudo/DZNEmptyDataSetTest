@@ -15,4 +15,5 @@ target 'DZNEmptyDataSetTest' do
 pod 'AFNetworking'
 pod 'PPNetworkHelper'
 pod 'EasyNavigation','~>1.0'
+pod 'MJRefresh'
 end
